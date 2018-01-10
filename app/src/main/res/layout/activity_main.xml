@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0000">
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#888888" />
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@drawable/selector_shop_rb"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_shopping"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="逛一逛"
+            android:textColor="@drawable/selector_shop_rb"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_discount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="惠民"
+            android:textColor="@drawable/selector_shop_rb"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_shop_car"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="购物车"
+            android:textColor="@drawable/selector_shop_rb"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@drawable/selector_shop_rb"
+            android:textSize="13sp" />
+
+    </RadioGroup>
+
+</LinearLayout>
